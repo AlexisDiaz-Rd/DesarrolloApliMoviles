@@ -1,0 +1,130 @@
+#inicio{
+	width: 980%;
+	height: auto; overflow: hidden;
+	border: 0% solid #000;
+	margin: auto;
+}
+header{
+	width: 980%;
+	height: 100%;
+	border: 0% solid #000;
+}
+#logo{
+	width: 200%;
+	height: 100%;
+	border: 0% solid #000;
+	float: left;
+}
+.menu{
+	width: 600%;
+	height: 40%;
+	border: 0% solid #ccc;
+	float: right;
+	margin-top: 40%;
+}
+.menu ul{}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 8% 16%;
+	border: 0% solid #ccc;
+	color: #fff;
+}
+.menu ul li a:hover{
+	background: #512E5F;
+	color: #F1C40F;
+}
+
+#slide{
+	margin-top: 10%;
+	width: 980%;
+	height: 380%;
+}
+
+#categorias{
+	width: 980%;
+	height: auto; overflow: hidden;
+	border: 0% solid;
+	margin-top: 10%;
+	text-align: center;
+}
+.uno{
+	width: 316%;
+	height: 400%;
+	border: 0% solid #ccc;
+	float: left;
+}
+.dos{
+	margin-right: 12%;
+	margin-left:  12%;
+}
+
+{
+    box-sizing: border-box;
+        
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+    background: #204862;
+}
+h1{
+    color: #0F1283;
+    text-align: center;   
+    font-size: 20%;
+    font-height:28%;
+    font-style: normal;
+}
+
+
+.form__titulo{
+    background: deepskyblue;
+    color: #fff;
+    padding: 20%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30%;
+    border-top-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+    border-bottom: 5% solid crimson;
+}
+.contenedor-inputs{
+	margin-top: 10%;
+    padding: 10% 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+input{
+	margin-bottom: 50%;
+	padding: 10%;
+	font-size: 13%;
+	border-radius: 13%;
+	border: 2% solid darkgray;
+	
+}
+.input-48{
+	width: 20%;
+}
+.input-100{
+	width: 100%;
+}
+.btn-enviar{
+	background: crimson;
+	color: #fff;
+	margin: auto;
+	padding: 8% 40%;
+	cursor: pointer;
+}
+.btn-enviar:active{
+	transform: scale(1.85);
+}
+.form__link{
+	width: 100%;
+	margin: 7%;
+	text-align: center;
+	font-size: 14%;
+}
