@@ -1,41 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="apple-touch-icon" href="./img3.png">
+	<link rel= "manifest" href="./manifest.json">
 <meta charset="utf-8">
-	<title>geo localizacion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Geo Alexis</title>
 <script type="text/javascript">
-function loadLocation () {
-	navigator.geolocation.getCurrentPosition(viewMap,ViewError,{timeout:1000});
-}
-
-
-	
-
-//Funcion de exito
-function viewMap (position) {
-	
-	var lon = position.coords.longitude;	
-	var lat = position.coords.latitude;		
-
-	var link = "http://maps.google.com/?ll="+lat+","+lon+"&z=14";
-	document.getElementById("long").innerHTML = "Longitud: "+lon;
-	document.getElementById("latitud").innerHTML = "Latitud: "+lat;
-
-
-}
-
-
-
-function ViewError (error) {
-	alert(error.code);
-}	
-
-
 
 	</script>
 	<body onload="loadLocation();">
 		<div id="inicio">
+			<h3> GEOLOCALIZACION </h3>		
 			
 	<form action="documento.php" method="post" class="form-register" >
 		<h2 class="form__titulo"> HOLA TU LOCALIZACION ES:</h2>
@@ -46,6 +25,7 @@ function ViewError (error) {
 			
 		</div>
 	</form>
+	<script src="./serviceWorker.js"> </script>
 </body>
 
 </html>
